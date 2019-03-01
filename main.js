@@ -12,3 +12,13 @@ function findOdd(a) {
      return +e;       //return it and stop looking
     }
 }
+
+//return length of shortest word in string
+
+function findShort(string){
+  let array = string.split(" ")
+  let sortedArray = array.sort(function(a, b){return a.length - b.length})
+  let shortest = sortedArray[0].length
+
+  return shortest
+}
