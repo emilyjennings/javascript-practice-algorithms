@@ -22,3 +22,23 @@ function findShort(string){
 
   return shortest
 }
+
+//Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized.
+ //take apart the string and make sure each first character in each word is capitalize
+
+
+ //take an array and return a new array with only the elements that are numbers
+
+ function filter_list(l) {
+
+  let array = []
+  for (let i=0; i < l.length; i++) {
+
+    if (typeof(l[i]) != "string") {
+      array.push(l[i])
+    }
+  }
+  return array
+
+
+}
